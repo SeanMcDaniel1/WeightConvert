@@ -4,14 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
     <title>Weight Conversion</title>
-    <style>
-        body {
-        margin-top:70px;
-        background:#333;
-        color:#fff;
-        }
-    </style>
 </head>
 <body>
     <div class="container">
@@ -20,7 +15,7 @@
             <h1 class="display-4 text-center mb-3">Weight Converter</h1>
             <form>
               <div class="form-group">
-                <input id="lbsInput" type="number" class="form-control form-control-lg" placeholder="Enter Pounds...">
+                <input id="lbsInput" min=0 type="number" class="form-control form-control-lg" placeholder="Enter Pounds...">
               </div>
             </form>
             <div id="output">
